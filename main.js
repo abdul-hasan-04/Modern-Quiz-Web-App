@@ -31,106 +31,106 @@ let questions = [
     ],
     correct: 0,
   },
-  // {
-  //   question: "In which year did World War II end?",
-  //   options: ["1942", "1945", "1939", "1950"],
-  //   correct: 1,
-  // },
-  // {
-  //   question: "Which ancient civilization built the pyramids?",
-  //   options: ["Romans", "Greeks", "Egyptians", "Mayans"],
-  //   correct: 2,
-  // },
-  // {
-  //   question: "Who was known as the Napoleon of Africa?",
-  //   options: [
-  //     "Nelson Mandela",
-  //     "Samori Ture",
-  //     "Haile Selassie",
-  //     "Kwame Nkrumah",
-  //   ],
-  //   correct: 1,
-  // },
-  // {
-  //   question: "What is the largest ocean on Earth?",
-  //   options: ["Atlantic", "Indian", "Pacific", "Arctic"],
-  //   correct: 2,
-  // },
-  // {
-  //   question: "What is the capital city of Canada?",
-  //   options: ["Toronto", "Vancouver", "Ottawa", "Montreal"],
-  //   correct: 2,
-  // },
-  // {
-  //   question: "Which desert is the largest in the world?",
-  //   options: ["Sahara", "Gobi", "Kalahari", "Arabian"],
-  //   correct: 0,
-  // },
-  // {
-  //   question: "What is the basic unit of life?",
-  //   options: ["Atom", "Cell", "Molecule", "Organ"],
-  //   correct: 1,
-  // },
-  // {
-  //   question: "Which organ pumps blood in the human body?",
-  //   options: ["Brain", "Lungs", "Heart", "Liver"],
-  //   correct: 2,
-  // },
-  // {
-  //   question: "What gas do plants absorb from the atmosphere?",
-  //   options: ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
-  //   correct: 2,
-  // },
-  // {
-  //   question: "What is the largest organ in the human body?",
-  //   options: ["Heart", "Brain", "Skin", "Liver"],
-  //   correct: 2,
-  // },
-  // {
-  //   question: "What planet is known as the Red Planet?",
-  //   options: ["Earth", "Mars", "Jupiter", "Venus"],
-  //   correct: 1,
-  // },
-  // {
-  //   question: "What force keeps us on the ground?",
-  //   options: ["Magnetism", "Gravity", "Friction", "Energy"],
-  //   correct: 1,
-  // },
-  // {
-  //   question: "What is H2O commonly known as?",
-  //   options: ["Oxygen", "Hydrogen", "Water", "Salt"],
-  //   correct: 2,
-  // },
-  // {
-  //   question: "What part of the atom has a positive charge?",
-  //   options: ["Electron", "Neutron", "Proton", "Nucleus"],
-  //   correct: 2,
-  // },
-  // {
-  //   question: "Who wrote Romeo and Juliet?",
-  //   options: [
-  //     "Charles Dickens",
-  //     "William Shakespeare",
-  //     "Mark Twain",
-  //     "Leo Tolstoy",
-  //   ],
-  //   correct: 1,
-  // },
-  // {
-  //   question: "What is the fastest land animal?",
-  //   options: ["Lion", "Cheetah", "Tiger", "Horse"],
-  //   correct: 1,
-  // },
-  // {
-  //   question: "Which language has the most native speakers in the world?",
-  //   options: ["English", "Spanish", "Mandarin Chinese", "Hindi"],
-  //   correct: 2,
-  // },
-  // {
-  //   question: "How many continents are there on Earth?",
-  //   options: ["5", "6", "7", "8"],
-  //   correct: 2,
-  // },
+  {
+    question: "In which year did World War II end?",
+    options: ["1942", "1945", "1939", "1950"],
+    correct: 1,
+  },
+  {
+    question: "Which ancient civilization built the pyramids?",
+    options: ["Romans", "Greeks", "Egyptians", "Mayans"],
+    correct: 2,
+  },
+  {
+    question: "Who was known as the Napoleon of Africa?",
+    options: [
+      "Nelson Mandela",
+      "Samori Ture",
+      "Haile Selassie",
+      "Kwame Nkrumah",
+    ],
+    correct: 1,
+  },
+  {
+    question: "What is the largest ocean on Earth?",
+    options: ["Atlantic", "Indian", "Pacific", "Arctic"],
+    correct: 2,
+  },
+  {
+    question: "What is the capital city of Canada?",
+    options: ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+    correct: 2,
+  },
+  {
+    question: "Which desert is the largest in the world?",
+    options: ["Sahara", "Gobi", "Kalahari", "Arabian"],
+    correct: 0,
+  },
+  {
+    question: "What is the basic unit of life?",
+    options: ["Atom", "Cell", "Molecule", "Organ"],
+    correct: 1,
+  },
+  {
+    question: "Which organ pumps blood in the human body?",
+    options: ["Brain", "Lungs", "Heart", "Liver"],
+    correct: 2,
+  },
+  {
+    question: "What gas do plants absorb from the atmosphere?",
+    options: ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+    correct: 2,
+  },
+  {
+    question: "What is the largest organ in the human body?",
+    options: ["Heart", "Brain", "Skin", "Liver"],
+    correct: 2,
+  },
+  {
+    question: "What planet is known as the Red Planet?",
+    options: ["Earth", "Mars", "Jupiter", "Venus"],
+    correct: 1,
+  },
+  {
+    question: "What force keeps us on the ground?",
+    options: ["Magnetism", "Gravity", "Friction", "Energy"],
+    correct: 1,
+  },
+  {
+    question: "What is H2O commonly known as?",
+    options: ["Oxygen", "Hydrogen", "Water", "Salt"],
+    correct: 2,
+  },
+  {
+    question: "What part of the atom has a positive charge?",
+    options: ["Electron", "Neutron", "Proton", "Nucleus"],
+    correct: 2,
+  },
+  {
+    question: "Who wrote Romeo and Juliet?",
+    options: [
+      "Charles Dickens",
+      "William Shakespeare",
+      "Mark Twain",
+      "Leo Tolstoy",
+    ],
+    correct: 1,
+  },
+  {
+    question: "What is the fastest land animal?",
+    options: ["Lion", "Cheetah", "Tiger", "Horse"],
+    correct: 1,
+  },
+  {
+    question: "Which language has the most native speakers in the world?",
+    options: ["English", "Spanish", "Mandarin Chinese", "Hindi"],
+    correct: 2,
+  },
+  {
+    question: "How many continents are there on Earth?",
+    options: ["5", "6", "7", "8"],
+    correct: 2,
+  },
 ];
 
 // Global state
