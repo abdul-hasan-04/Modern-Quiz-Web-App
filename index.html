@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="header container">
+            <h1 class="quiz-title">Quiz App</h1>
+            <button class="start-quiz btn">Start Quiz</button>
+        </div>
+        <div class="quiz-content container">
+            <div class="time-count">
+                <i class="fa-solid fa-alarm-clock"></i>
+                 <span class="timer"></span>
+            </div>
+            <h3 class="question">What is the capital city of kenya?</h3>
+            <ul class="answers">
+            </ul>
+            <div class="ask-permission">
+            </div>
+            <button class="check-btn btn">Check</button>
+            <div class="alarm">
+                <div class="progress"></div>
+            </div>
+        </div>
+        <div class="score-container">
+            <p>congratulations, quiz has end.🎉</p>
+            <span class="score">Your Score is : <span class="number">0</span></span>
+            <button class="restart-quiz btn">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
