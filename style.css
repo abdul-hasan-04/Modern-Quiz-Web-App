@@ -120,7 +120,7 @@ li.incorrect{
     background-color: #f95012;
 }
 li.correct{
-    background-color: #ffe310;
+    background-color: #2efd00;
 }
 .answers li.selected{
     opacity: 1;

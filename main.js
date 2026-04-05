@@ -124,7 +124,7 @@ let questions = [
   {
     question: "Which language has the most native speakers in the world?",
     options: ["English", "Spanish", "Mandarin Chinese", "Hindi"],
-    correct: 2,
+    correct: 0,
   },
   {
     question: "How many continents are there on Earth?",
@@ -181,8 +181,6 @@ const helpUser = () => {
      clearInterval(timerInterval);
      timerInterval = null;
      nexQuestion();
-     console.log(quizIndex);
-     
   }, 2000);
 }
 
@@ -225,11 +223,13 @@ const checkuserAnswers = () => {
     // disable to click answers btn, becuzu no chance when user clicked checkbtn //
     let answers = quizAnswers.querySelector("li");
     answers.style.pointerEvents = "none";
+    answers.classList.add("correct");
+    
     // answers.classList.remove("selected");
     // after delay go to next question //
     setTimeout(() => {
       nexQuestion();
-    }, 2000);
+    }, 2500);
   }
 };
 
