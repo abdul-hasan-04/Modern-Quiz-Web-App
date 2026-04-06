@@ -221,10 +221,19 @@ const checkuserAnswers = () => {
     // add incorrect class //
     selectedAnswerElement.classList.add("incorrect");
     // disable to click answers btn, becuzu no chance when user clicked checkbtn //
-    let answers = quizAnswers.querySelector("li");
-    answers.style.pointerEvents = "none";
-    answers.classList.add("correct");
+    let answers = quizAnswers.querySelectorAll("li");
+    answers.forEach((ans, index) => {
+      ans.style.pointerEvents = "none";
+      if(index === currentQuestion.correct){
+        ans.classList.add("correct");
+      }
+    })
+
+
     
+    
+    
+    // answers.style.pointerEvents = "none";÷
     // answers.classList.remove("selected");
     // after delay go to next question //
     setTimeout(() => {
